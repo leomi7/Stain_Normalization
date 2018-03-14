@@ -8,5 +8,5 @@ i2 = utils.read_image('./data/i2.png')
 n = stainNorm_Macenko.Normalizer()
 n.fit(i2)
 out = n.transform(i3)
-cv2.imwrite('ans.jpg',out)
+cv2.imwrite('ans1.jpg',out)
 
